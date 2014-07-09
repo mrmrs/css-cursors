@@ -1,0 +1,29 @@
+{
+  "name": "css-cursors",
+  "version": "0.0.1",
+  "homepage": "http://github.com/mrmrs/css-cursors",
+  "description": "Css module of single purpose classes for cursors",
+  "keywords": [
+    "css",
+    "oocss",
+    "",
+    ""
+  ],
+  "css-cursors": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/css-cursors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/repo/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "Adam Morse",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "contributors": [
+    { "name": "Adam Morse", "email": "hi@mrmrs.cc" }
+  ],
+  "license": "MIT"
+}
