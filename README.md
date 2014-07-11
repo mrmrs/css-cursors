@@ -54,7 +54,7 @@ or download the css on github and include in your project.
 .cursor-zoom-in {       cursor: zoom-in; }
 .cursor-zoom-out {      cursor: zoom-out; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .cursor-auto-ns {          cursor: auto; }
   .cursor-default-ns {       cursor: default; }
   .cursor-none-ns {          cursor: none; }
@@ -91,7 +91,7 @@ or download the css on github and include in your project.
   .cursor-zoom-out-ns {      cursor: zoom-out; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .cursor-auto-m {          cursor: auto; }
   .cursor-default-m {       cursor: default; }
   .cursor-none-m {          cursor: none; }
@@ -128,7 +128,7 @@ or download the css on github and include in your project.
   .cursor-zoom-out-m {      cursor: zoom-out; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .cursor-auto-l {          cursor: auto; }
   .cursor-default-l {       cursor: default; }
   .cursor-none-l {          cursor: none; }
