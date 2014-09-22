@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-cursors)
 ## File Size
 
 6.4K cursors.css
-4.7K cursors.min.css
+4.7K cursors.min.css 
+696B minified and gzipped
 
 ## The Code
 ```
