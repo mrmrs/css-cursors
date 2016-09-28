@@ -19,7 +19,7 @@ npm install --save-dev css-cursors
 #### With Git
 
 ```
-git clone https://github.com/tachyons-css/css-cursors
+git clone https://github.com/mrmrs/css-cursors
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ Import the css module
 @import "css-cursors";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the CSS using the [`tachyons-cli`](https://github.com/mrmrs/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
