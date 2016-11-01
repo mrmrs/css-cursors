@@ -1,7 +1,7 @@
 {
   "name": "css-cursors",
   "style": "cursors.css",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "http://github.com/mrmrs/css-cursors",
   "description": "Css module of single purpose classes for cursors",
   "keywords": [
