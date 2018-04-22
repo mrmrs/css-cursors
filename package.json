@@ -1,6 +1,7 @@
 {
   "name": "css-cursors",
-  "style": "cursors.css",
+  "style": "css/css-cursors.min.css",
+  "main": "css/css-cursors.css",
   "version": "1.0.8",
   "homepage": "http://github.com/mrmrs/css-cursors",
   "description": "Css module of single purpose classes for cursors",
