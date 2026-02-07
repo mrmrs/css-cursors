@@ -28,7 +28,7 @@
 .cursor-sw-resize {     cursor: sw-resize; }
 .cursor-w-resize {      cursor: w-resize; }
 .cursor-ew-resize {     cursor: ew-resize; }
-.cursor-ns-resize {     cursor: ns-resize; }
+.cursor-s-resize {     cursor: ns-resize; }
 .cursor-nesw-resize {   cursor: nesw-resize; }
 .cursor-nwse-resize {   cursor: nwse-resize; }
 .cursor-col-resize {    cursor: col-resize; }
@@ -38,40 +38,40 @@
 .cursor-zoom-out {      cursor: zoom-out; }
 
 @media screen and (min-width: 48em) {
-  .cursor-auto-ns {          cursor: auto; }
-  .cursor-default-ns {       cursor: default; }
-  .cursor-none-ns {          cursor: none; }
-  .cursor-context-menu-ns {  cursor: context-menu; }
-  .cursor-help-ns {          cursor: help; }
-  .cursor-pointer-ns {       cursor: pointer; }
-  .cursor-progress-ns {      cursor: progress; }
-  .cursor-wait-ns {          cursor: wait; }
-  .cursor-cell-ns {          cursor: cell; }
-  .cursor-crosshair-ns {     cursor: crosshair; }
-  .cursor-text-ns {          cursor: text; }
-  .cursor-vertical-text-ns { cursor: vertical-text; }
-  .cursor-alias-ns {         cursor: alias; }
-  .cursor-copy-ns {          cursor: copy; }
-  .cursor-move-ns {          cursor: move; }
-  .cursor-no-drop-ns {       cursor: no-drop; }
-  .cursor-not-allowed-ns {   cursor: not-allowed; }
-  .cursor-e-resize-ns {      cursor: e-resize; }
-  .cursor-n-resize-ns {      cursor: n-resize; }
-  .cursor-ne-resize-ns {     cursor: ne-resize; }
-  .cursor-nw-resize-ns {     cursor: nw-resize; }
-  .cursor-s-resize-ns {      cursor: s-resize; }
-  .cursor-se-resize-ns {     cursor: se-resize; }
-  .cursor-sw-resize-ns {     cursor: sw-resize; }
-  .cursor-w-resize-ns {      cursor: w-resize; }
-  .cursor-ew-resize-ns {     cursor: ew-resize; }
-  .cursor-ns-resize-ns {     cursor: ns-resize; }
-  .cursor-nesw-resize-ns {   cursor: nesw-resize; }
-  .cursor-nwse-resize-ns {   cursor: nwse-resize; }
-  .cursor-col-resize-ns {    cursor: col-resize; }
-  .cursor-row-resize-ns {    cursor: row-resize; }
-  .cursor-all-scroll-ns {    cursor: all-scroll; }
-  .cursor-zoom-in-ns {       cursor: zoom-in; }
-  .cursor-zoom-out-ns {      cursor: zoom-out; }
+  .cursor-auto-s {          cursor: auto; }
+  .cursor-default-s {       cursor: default; }
+  .cursor-none-s {          cursor: none; }
+  .cursor-context-menu-s {  cursor: context-menu; }
+  .cursor-help-s {          cursor: help; }
+  .cursor-pointer-s {       cursor: pointer; }
+  .cursor-progress-s {      cursor: progress; }
+  .cursor-wait-s {          cursor: wait; }
+  .cursor-cell-s {          cursor: cell; }
+  .cursor-crosshair-s {     cursor: crosshair; }
+  .cursor-text-s {          cursor: text; }
+  .cursor-vertical-text-s { cursor: vertical-text; }
+  .cursor-alias-s {         cursor: alias; }
+  .cursor-copy-s {          cursor: copy; }
+  .cursor-move-s {          cursor: move; }
+  .cursor-no-drop-s {       cursor: no-drop; }
+  .cursor-not-allowed-s {   cursor: not-allowed; }
+  .cursor-e-resize-s {      cursor: e-resize; }
+  .cursor-n-resize-s {      cursor: n-resize; }
+  .cursor-ne-resize-s {     cursor: ne-resize; }
+  .cursor-nw-resize-s {     cursor: nw-resize; }
+  .cursor-s-resize-s {      cursor: s-resize; }
+  .cursor-se-resize-s {     cursor: se-resize; }
+  .cursor-sw-resize-s {     cursor: sw-resize; }
+  .cursor-w-resize-s {      cursor: w-resize; }
+  .cursor-ew-resize-s {     cursor: ew-resize; }
+  .cursor-s-resize-s {     cursor: ns-resize; }
+  .cursor-nesw-resize-s {   cursor: nesw-resize; }
+  .cursor-nwse-resize-s {   cursor: nwse-resize; }
+  .cursor-col-resize-s {    cursor: col-resize; }
+  .cursor-row-resize-s {    cursor: row-resize; }
+  .cursor-all-scroll-s {    cursor: all-scroll; }
+  .cursor-zoom-in-s {       cursor: zoom-in; }
+  .cursor-zoom-out-s {      cursor: zoom-out; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
@@ -101,7 +101,7 @@
   .cursor-sw-resize-m {     cursor: sw-resize; }
   .cursor-w-resize-m {      cursor: w-resize; }
   .cursor-ew-resize-m {     cursor: ew-resize; }
-  .cursor-ns-resize-m {     cursor: ns-resize; }
+  .cursor-s-resize-m {     cursor: ns-resize; }
   .cursor-nesw-resize-m {   cursor: nesw-resize; }
   .cursor-nwse-resize-m {   cursor: nwse-resize; }
   .cursor-col-resize-m {    cursor: col-resize; }
@@ -138,7 +138,7 @@
   .cursor-sw-resize-l {     cursor: sw-resize; }
   .cursor-w-resize-l {      cursor: w-resize; }
   .cursor-ew-resize-l {     cursor: ew-resize; }
-  .cursor-ns-resize-l {     cursor: ns-resize; }
+  .cursor-s-resize-l {     cursor: ns-resize; }
   .cursor-nesw-resize-l {   cursor: nesw-resize; }
   .cursor-nwse-resize-l {   cursor: nwse-resize; }
   .cursor-col-resize-l {    cursor: col-resize; }
