@@ -37,7 +37,7 @@
 .cursor-zoom-in {       cursor: zoom-in; }
 .cursor-zoom-out {      cursor: zoom-out; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .cursor-auto-s {          cursor: auto; }
   .cursor-default-s {       cursor: default; }
   .cursor-none-s {          cursor: none; }
@@ -74,7 +74,7 @@
   .cursor-zoom-out-s {      cursor: zoom-out; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .cursor-auto-m {          cursor: auto; }
   .cursor-default-m {       cursor: default; }
   .cursor-none-m {          cursor: none; }
@@ -111,7 +111,7 @@
   .cursor-zoom-out-m {      cursor: zoom-out; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .cursor-auto-l {          cursor: auto; }
   .cursor-default-l {       cursor: default; }
   .cursor-none-l {          cursor: none; }
