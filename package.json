@@ -1,38 +1,44 @@
 {
   "name": "css-cursors",
-  "style": "cursors.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-cursors",
-  "description": "Css module of single purpose classes for cursors",
+  "version": "2.0.0",
+  "description": "Functional CSS for cursors",
+  "style": "dist/cursors.css",
+  "main": "dist/cursors.css",
+  "exports": {
+    ".": "./dist/cursors.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "cursors"
+    "cursors",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-cursors": {
+  "homepage": "https://github.com/mrmrs/css-cursors",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-cursors.git"
+    "url": "https://github.com/mrmrs/css-cursors.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-cursors/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-cursors/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
